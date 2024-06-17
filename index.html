@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>main contact form</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <section class="container">
+      <h1>Contact Us</h1>
+      <div class="input-form">
+        <div class="first-name">
+          <label for="first">First Name <span class="star">*</span></label>
+          <input id="first" class="first-input" type="text" name="firstOne" />
+          <p class="required" id="error">This field is required</p>
+        </div>
+
+        <div class="last-name">
+          <label for="last">Last Name <span class="star">*</span></label>
+          <input class="last-input" type="text" name="last" id="last" />
+          <p class="required" id="error2">This field is required</p>
+        </div>
+
+        <div class="email">
+          <label for="mail">E-mail Address <span class="star">*</span> </label>
+          <input class="olesia" type="text" name="mail" id="mail" required />
+          <p class="required" id="error-mail">
+            Please enter a valid email address
+          </p>
+        </div>
+        <div class="query-type" id="query">
+          <div class="type">
+            <label for="first">Query Type <span class="star">*</span></label>
+          </div>
+          <div class="exp">
+            <section class="general">
+              <span></span>
+              <input
+                class="checker"
+                type="radio"
+                id="option1"
+                name="option1"
+                value="1"
+              />
+              <label for="option1">General Enquiry</label>
+            </section>
+            <section class="general support">
+              <span></span>
+
+              <input
+                class="checker"
+                type="radio"
+                id="option2"
+                name="option2"
+                value="2"
+              />
+              <label for="option2">Support Request</label>
+            </section>
+          </div>
+          <p class="required" id="errorMessage">Please select a query type</p>
+        </div>
+
+        <div class="message">
+          <label for="mess">Message <span class="star">*</span></label>
+
+          <textarea
+            class="input-message"
+            name="area"
+            id="mess"
+            cols="30"
+            rows="10"
+          ></textarea>
+
+          <p class="required" id="errorMess">This field is required</p>
+        </div>
+
+        <div class="confirm">
+          <div class="confirm-check">
+            <input type="checkbox" id="check" name="check" />
+            <label for="check"
+              >I consent to being contacted by the team
+              <span class="star">*</span></label
+            >
+          </div>
+          <span class="confirm-spam">
+            <p class="required" id="errorConfirm">
+              To submit this form, please consent to being contacted
+            </p>
+          </span>
+        </div>
+
+        <div class="submit">
+          <button>Submit</button>
+        </div>
+      </div>
+    </section>
+
+    <script src="main.js"></script>
+  </body>
+</html>
