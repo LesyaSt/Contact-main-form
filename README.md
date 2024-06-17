@@ -17,7 +17,7 @@ Users should be able to:
 
 ### Link
 
-- Live Site URL: [Contact main form](https://lesyast.github.io/contact-main-form/)
+- Live Site URL: [Contact main form](https://lesyast.github.io/Contact-main-form/)
 
 ## My process
 
