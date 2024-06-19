@@ -261,7 +261,7 @@ body {
   .container {
     background-color: hsl(0, 0%, 100%);
     width: 90%;
-    height: 90%;
+    height: 830px;
     border-radius: 16px;
     position: absolute;
     left: 20px;
